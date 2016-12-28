@@ -1,0 +1,109 @@
+#header{
+		background: black  url(backgroundimg.jpg);
+		height: 150px;
+		background-position: -200px -300px;  //调整背景图片的位置
+
+		}
+#nav li{
+		float: left;  //使导航标题浮起来并排;
+		width: 90px;
+		margin-right: 1px;
+		text-align: center;
+
+}
+#nav a{
+		font-size: 20px;
+		color: white;
+		font-family:'微软雅黑';		
+		display: block;
+		width: 50px;
+		height: 30px;
+
+
+}
+#nav a:hover{
+		color: black;
+		background:url(navback.jpg); 
+		}
+.crl{
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+#main{
+	
+}
+.subtitle{
+	height: 37px;
+	background-color: gray;
+	border: 1px solid black;
+}
+.subtitle img{
+	float: left;
+	margin:5px 0 0 10px;
+}
+.subtitle h1{
+	float: left;
+	color:white;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	margin-left: 10px;
+}
+.subtitle a{
+	float: right;
+	margin-top: 20px;
+
+}
+#lside{
+	
+	width: 800px;
+	border: 1px solid gray;
+	float: left;
+}
+.four{
+	float: left;
+	border: 1px solid black;
+	width: 360px;
+	height: 330px;
+	margin:10px;
+}
+.four h2{
+	color: black;
+}
+#rside{
+	
+	width: 500px;
+	border: 1px solid gray;
+	float: right;
+}
+#rside li{
+	font-size: 30px;
+	font-family: "微软雅黑";
+	height: 80px;
+	margin-left: 10px;
+}
+
+
+#footer{
+	height: 20px;
+	background-color: gray;
+}
+#footer ul{
+	float: left;
+	margin-bottom: 10px;
+}
+#footer li{
+	float: left;
+	width: 200px;
+}
+#footer a{
+	display: block;
+	width: 100px;
+}
+#footer a:hover{
+	color: black;
+	background: url(navback.jpg);
+}
+#band{
+	clear: left;
+}
